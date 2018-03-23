@@ -1,0 +1,48 @@
+<PISI>
+    <Source>
+        <Name>ruby_dep</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - ruby_dep</Summary>
+        <Description xml:lang="en">Creates a version constraint of supported Rubies, suitable for a gemspec file.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby_dep</Name>
+        <Summary xml:lang="en">RubyGem - ruby_dep</Summary>
+        <Description xml:lang="en">Creates a version constraint of supported Rubies, suitable for a gemspec file.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/.rspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/.rubocop.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/lib/ruby_dep.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/lib/ruby_dep/travis.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/lib/ruby_dep/travis/ruby_version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/lib/ruby_dep/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ruby_dep-1.3.1/lib/ruby_dep/warning.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/ruby_dep-1.3.1.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>1.3.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
