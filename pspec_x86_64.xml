@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby_dep</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,30 +19,27 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/.rspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/.rubocop.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/LICENSE.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/lib/ruby_dep.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/lib/ruby_dep/travis.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/lib/ruby_dep/travis/ruby_version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/lib/ruby_dep/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/ruby_dep-1.3.1/lib/ruby_dep/warning.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/ruby_dep-1.3.1.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/.rspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/.rubocop.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/lib/ruby_dep.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/lib/ruby_dep/travis.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/lib/ruby_dep/travis/ruby_version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/lib/ruby_dep/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/ruby_dep-1.3.1/lib/ruby_dep/warning.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/ruby_dep-1.3.1.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
+        <Update release="4">
+            <Date>2020-07-01</Date>
             <Version>1.3.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
